@@ -1,7 +1,7 @@
 <h1>会社一覧</h1>
     <% @joblists.each do |joblist| %>
       <ul class="list-group">
-        <li class="list-group-item"><%= link_to t('joblist.company'), joblist_path(joblist.id) , class: "btn btn-info", style: "color:white;"%></li>
+        <li class="list-group-item"><%= link_to joblist.company, joblist_path(joblist.id) %></li>
         <!--
         <td><%= link_to 'Edit', edit_joblist_path(joblist) %></td>
         <td><%= link_to 'Destroy', joblist, method: :delete, data: { confirm: 'Are you sure?' } %></td>
