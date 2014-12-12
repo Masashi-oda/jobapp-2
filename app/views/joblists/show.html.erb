@@ -1,139 +1,183 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>企業名:</strong>
+<h1>
   <%= @joblist.company %>
-</p>
+</h1>
 
-<p>
-  <strong>設立年:</strong>
-  <%= @joblist.data1 %>
-</p>
+<h2>会社概要</h2>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">設立年</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data1 %></div>
+    </div>
 
-<p>
-  <strong>正社員数:</strong>
-  <%= @joblist.data2 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">正社員数</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data2 %></div>
+    </div>
 
-<p>
-  <strong>パート、契約社員数:</strong>
-  <%= @joblist.data3 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">パート、契約社員数</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data3 %></div>
+    </div>
 
-<p>
-  <strong>男性社員数:</strong>
-  <%= @joblist.data4 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">男性社員数</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data4 %></div>
+    </div>
 
-<p>
-  <strong>女性社員数:</strong>
-  <%= @joblist.data5 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">女性社員数</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data5 %></div>
+    </div>
 
-<p>
-  <strong>資本金:</strong>
-  <%= @joblist.data6 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">資本金</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data6 %></div>
+    </div>
 
-<p>
-  <strong>業種:</strong>
-  <%= @joblist.data7 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">業種</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data7 %></div>
+    </div>
 
-<p>
-  <strong>代表者:</strong>
-  <%= @joblist.data8 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">代表者</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data8 %></div>
+    </div>
 
-<p>
-  <strong>担当窓口:</strong>
-  <%= @joblist.data9 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">担当窓口</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data9 %></div>
+    </div>
 
-<p>
-  <strong>事業内容:</strong>
-  <%= @joblist.data10 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">事業内容</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data10 %></div>
+    </div>
 
-<p>
-  <strong>離職率:</strong>
-  <%= @joblist.data11 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">離職率</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data11 %></div>
+    </div>
 
-<p>
-  <strong>インタビュー者名:</strong>
-  <%= @joblist.data12 %>
-</p>
 
-<p>
-  <strong>入社年:</strong>
-  <%= @joblist.data13 %>
-</p>
+<h2>社員インタビュー</h2>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">インタビュー者</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data12 %><%= @joblist.data13 %><%= @joblist.data14 %></div>
+    </div>
 
-<p>
-  <strong>歳:</strong>
-  <%= @joblist.data14 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">入社のきっかけ</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data15 %></div>
+    </div>
 
-<p>
-  <strong>入社のきっかけ:</strong>
-  <%= @joblist.data15 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">日常業務の内容</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data16 %></div>
+    </div>
 
-<p>
-  <strong>日常業務の内容:</strong>
-  <%= @joblist.data16 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">月平均残業時間</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data17 %></div>
+    </div>
 
-<p>
-  <strong>月平均残業時間:</strong>
-  <%= @joblist.data17 %>
-</p>
 
-<p>
-  <strong>当社の強み:</strong>
-  <%= @joblist.data18 %>
-</p>
+<h2>代表者からのメッセージ</h2>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">当社の強み</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data18 %></div>
+    </div>
 
-<p>
-  <strong>これからの会社目標:</strong>
-  <%= @joblist.data19 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">これからの会社目標</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data19 %></div>
+    </div>
 
-<p>
-  <strong>理想の社員:</strong>
-  <%= @joblist.data20 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">理想の社員</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data20 %></div>
+    </div>
 
-<p>
-  <strong>教育制度及び福利厚生:</strong>
-  <%= @joblist.data21 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">教育制度及び福利厚生</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data21 %></div>
+    </div>
 
-<p>
-  <strong>入社してくるみなさんに期待すること:</strong>
-  <%= @joblist.data22 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">入社してくるみなさんに期待すること</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data22 %></div>
+    </div>
 
-<p>
-  <strong>社内イベント:</strong>
-  <%= @joblist.data23 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">社内イベント</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data23 %></div>
+    </div>
 
-<p>
-  <strong>必須質問:</strong>
-  <%= @joblist.data24 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">必須質問</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data24 %></div>
+    </div>
 
-<p>
-  <strong>レポート後記:</strong>
-  <%= @joblist.data25 %>
-</p>
+<div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">レポート後記</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data25 %></div>
+    </div>
 
-<p>
-  <strong>こんな感じの人事でした:</strong>
-  <%= @joblist.data26 %>
-</p>
+ <div class="panel panel-info">
+     <div class="panel-heading">
+        <div class="panel-title">こんな感じの人事でした</div>
+     </div>
+     <div class="panel-body"><%= @joblist.data26 %></div>
+    </div>
 
+<!--
 <%= link_to 'Edit', edit_joblist_path(@joblist) %> |
 <%= link_to 'Back', joblists_path %>
+-->
