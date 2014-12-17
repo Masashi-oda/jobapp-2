@@ -15,13 +15,14 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-<div class="container">
-<%= image_tag "logo.png"%>
-
+   <div class="container">
+    <h1>WORK×2ラボ</h1>
 <%= yield %>
-
-<%= link_to t('Home'), root_path, class: "btn btn-info", style: "color:white;"%>
+<ul class="nav nav-tabs nav-justified">
+<li class="active"><%= link_to "Home", "/"%></li>
+</ul>
 
 </div>
 </body>

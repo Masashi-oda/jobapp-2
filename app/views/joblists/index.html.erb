@@ -1,17 +1,16 @@
+
 <p>このサイトは青森県の企業情報を掲載しています。</p>
 
 
 <h1>会社一覧</h1>
     <% @joblists.each do |joblist| %>
-        <ul>
-        <div >
-        <%= link_to joblist.company, joblist_path(joblist.id) %>
-    	</div>
+        <ul class="nav nav-tabs nav-justified">
+            <li class="active"><%= link_to joblist.company, joblist_path(joblist.id) %></li>
         <!--
         <td><%= link_to 'Edit', edit_joblist_path(joblist) %></td>
         <td><%= link_to 'Destroy', joblist, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         -->
-    </ul>
+        </ul>
     <% end %>
 <br>
 <!--
